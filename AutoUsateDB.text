@@ -1,0 +1,25 @@
+DataBase Auto Usate:
+
+
+Colonne             Dato          ATTRIBUTI                      
+
+
+Id_Auto             BIGINT              UNIQUE, NOT NULL, AUTO INCREMENT,PRIMARY KEY
+Marca               VARCHAR(40)         NOTNULL
+Modello             VARCHAR(30)         NOTNULL
+Generazione         TINYINT             NOTNULL
+Serie               VARCHAR(20)         NOTNULL Default: PRIMA
+Cilindrata          TINYINT             NOTNULL
+Trazione            VARCHAR(20)         NOTNULL
+Cambio              VARCHAR(15)         Default: MANUALE
+Cavalli             TINYINT             NOTNULL
+Anno                YEAR                NOTNULL
+Colore              VARCHAR(40)         NOTNULL
+Posti               TINYINT             NULL 
+Peso                TINYINT             NULL
+Km_Percorsi         TINYINT             NOTNULL
+Revisionata         VARCHAR(10)         NULL    Default: SI
+Carburante          VARCHAR(20)         NOTNULL
+Condizione          VARCHAR(20)         Default: USATA
+Proprietari         TINYINT             NULL
+Prezzo              FLOAT(7,2)          NOTNULL
